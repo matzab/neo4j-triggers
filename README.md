@@ -31,7 +31,9 @@
   - mount database to `/data/database` in the host machine
 - Setting up Neo4j Logging:
   1) Modify default logging configuration provided by Neo4j Image in `conf/user-logs.xml` file, adding custom Appender and
-    Logger for the  OR
+    Logger
+  
+  OR
   2)  Create config volume and copy provided config files when running the container
 
 ```xml
